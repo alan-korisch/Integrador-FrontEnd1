@@ -111,6 +111,10 @@ button{
     align-items: center;
     text-align: center;
 }
+.que-dijeron h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
 .card-container{
     display: flex;
     flex-direction: column;
