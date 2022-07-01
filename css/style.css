@@ -1,7 +1,7 @@
 body{
      font-family:'Be Vietnam Pro', sans-serif;;
     font-size: 62.5%;
-    background-color: #E5E5E5;
+    
 }
 header nav a {
     font-size: 1.2rem;
@@ -37,7 +37,7 @@ nav a{
 }
 h1{
     color: #232C50;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 main section div p{
     opacity: 0.5;
@@ -47,6 +47,12 @@ main section div button{
 }
 h2{
     color: #232851;
+}
+.What-The-said{
+    color: #232851;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 p{
     font-size: 1.2rem;
@@ -110,9 +116,10 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #E5E5E5;
 }
-.que-dijeron h2{
-    font-size: 20px;
+.What-The-said{
+    font-size: 2rem;
     padding-bottom: 20px;
 }
 .card-container{
@@ -124,7 +131,6 @@ button{
 }
 .card{
     margin-top: 5rem;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -248,6 +254,10 @@ footer form button{
    header nav a:hover{
     opacity: 0.5;
    }
+   h1{
+    color: #232C50;
+    font-size: 2.5rem;
+    }
    .logo-desktop{
     height: 30px;
     padding-left: 5rem;
@@ -274,13 +284,10 @@ footer form button{
     position: relative;
     bottom: 8vh;
     }
-
     main section div p{
         padding: 28px 0px 28px 0px;
         opacity: 0.5;
     }
-   
-
     main section div button{
         padding: 12.5px 30.5px 12.5px 30.5px;
     }
@@ -293,7 +300,7 @@ footer form button{
         align-items: flex-start;
     }
     .diferente .que-diferencia h2{
-        font-size: 20px;
+        font-size: 2rem
      }
     .que-diferencia{
         padding: 8rem;
@@ -322,6 +329,9 @@ footer form button{
         overflow: hidden;
         min-width: auto;
      }
+     .que-dijeron{
+        background-color: #E5E5E5;
+     }
      .card-container{
         display: flex;
         flex-direction: row;
@@ -341,16 +351,13 @@ footer form button{
     .simplify button{
         box-shadow: none;
     }
-
   button:hover{
     transform: scale(1.05);
     cursor: pointer;
     }
   .logo-footer:hover{
     cursor:pointer;
-   
     }
-
     footer{
         flex-direction: row-reverse;
         justify-content: space-around;
@@ -395,4 +402,5 @@ footer form button{
         padding-bottom: 10px;
         margin-left: 80px;
     }
-  }
+    
+}
