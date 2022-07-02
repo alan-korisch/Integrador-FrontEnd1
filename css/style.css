@@ -220,7 +220,7 @@ footer form button{
     width: 100%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     }
 .logos-container .fa-brands{
     width: 20px;
